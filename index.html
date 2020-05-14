@@ -11,18 +11,18 @@
 </head>
 
 <body>
-    <div class="design">
+    <section id="design">
         <h1>Number Guessing Game</h1>
         <h3>You have 5 guesses to guess a number from 1 - 100.</h3>
         <div id="remainingGuesses"></div>
         <div id="resultArea"></div>
-        <input type="number" id="guessNumber" />
+        <input type="number" id="guessNumber" class="marg" />
         <button onclick="guess()" class="btn btn-info" id="guessButton">Guess</button>
-        <div>
+        <div class="marg">
             <button onclick="reset()" type="button" class="btn btn-dark">Reset Game</button>
         </div>
-        <div id="historyArea">History will appear here.</div>
-    </div>
+        <div id="historyArea" class="marg">History will appear here.</div>
+    </section>
     <script src="main.js"></script>
     <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
         integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
